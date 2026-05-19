@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu130"
+verify_ssl = true
+name = "downloadpytorch"
+
+[packages]
+tree-sitter = "*"
+tqdm = "*"
+tree-sitter-language-pack = "*"
+starlette = "*"
+gitpython = "*"
+fastapi = ">=0.109.0"
+uvicorn = {extras = ["standard"], version = ">=0.27.0"}
+pydantic = ">=2.5.0"
+transformers = "*"
+accelerate = "*"
+bitsandbytes = "*"
+torch = {version = "*", index = "downloadpytorch"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.10"

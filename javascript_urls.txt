@@ -1,0 +1,13 @@
+https://github.com/facebook/react.git
+https://github.com/vercel/next.js.git
+https://github.com/sveltejs/svelte.git
+https://github.com/mrdoob/three.js.git
+https://github.com/d3/d3.git
+https://github.com/expressjs/express.git
+https://github.com/typicode/json-server.git
+https://github.com/Unitech/pm2.git
+https://github.com/serverless/serverless.git
+https://github.com/jestjs/jest.git
+https://github.com/axios/axios.git
+https://github.com/lodash/lodash.git
+https://github.com/open-webui/open-webui.git
